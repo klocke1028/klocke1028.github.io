@@ -7,73 +7,76 @@
     <title>My Projects</title>
 </head>
 <body>
-    <nav class="nav-menu">
-        <ul class="nav-items">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1 id="projects-header">
-            Recent Projects
-        </h1>
-    </header>
-    <article class="project">
-        <h2>Virtual Pet Part 1</h2>
-        <figure>
-            <img src="VirtualPet1.png"
-            alt="Virtual Pet 1 pic"
-            width="400px"/>
-        </figure>
-        <p class="description">
-            Virtual Pet 1 was my first experience with building a simple application. Using Java 
-            fundamentals, I was able to create a virtual pet in which I could feed, water and play with.
-            preforming these tasks would in turn affect the pet's stats.
-            <br/>
-            Virtual Pet 1 was written in Visual Studio Code using basic concepts such as loops,
-            methods, and classes.
-        </p>
-        <a href="https://github.com/WeCanCodeIT/homework----virtual-pet-part-1-klocke1028.git">
-            Virtual Pet 1
-        </a>
-    </article>
-
-    <article class="project">
-        <h2>Virtual Pet Part 2</h2>
-        <figure>
-            <img src="VirtualPet2.png"
-            alt="Virtual Pet 2 pic"
-            width="400px"/>
-        </figure>
-        <p class="description">
-            Virtual Pet 2 was built off of Virtual Pet 1. Here I added a shelter class where I could house and
-            care for multiple pets as opposed to just one. I also added methods which allowed for adopting out 
-            and admitting pets to and from the shelter.
-            <br/>
-            Virtual Pet 2 was written in Visual Studio Code and introduced the use of new concepts from OOP
-            and using collections.
-        </p>
-        <a href="https://github.com/WeCanCodeIT/homework-virtual-pet-part-2-shelter-v1-01-klocke1028.git">
-            Virtual Pet 2
-        </a>
-    </article>
-
-    <article class="project">
-        <h2>Virtual Pet API</h2>
-        <figure>
-            <img src="VirtualPetAPI.png"
-            alt="VP API pic"
-            width="400px"/>
-        </figure>
-        <p class="description">
-            Virtual Pet API is a simple REST API. Here I created an entity, repository, controller and service for 
-            virtual pets. Pets were able to be loaded into and located in the database.
-            <br/>
-            Like Virtual Pet 1 and 2, this project was written in Visual Studio Code. The project was created via
-            Spring Initializer and tested using Postman.
-
-        </p>
-    </article>
+    <div class="container">
+        <nav class="nav-menu">
+            <ul class="nav-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1 id="projects-header">
+                Recent Projects
+            </h1>
+        </header>
+        <article class="project">
+            <h2>Virtual Pet Part 1</h2>
+            <figure class="picture">
+                <img src="VirtualPet1.png"
+                alt="Virtual Pet 1 pic"/>
+            </figure>
+            <p class="description">
+                Virtual Pet 1 was my first experience with building a simple application. Using Java 
+                fundamentals, I was able to create a virtual pet in which I could feed, water and play with.
+                preforming these tasks would in turn affect the pet's stats.
+                <br/>
+                Virtual Pet 1 was written in Visual Studio Code using basic concepts such as loops,
+                methods, and classes.
+            </p>
+            <a href="https://github.com/WeCanCodeIT/homework----virtual-pet-part-1-klocke1028.git">
+                Virtual Pet 1 
+            </a>
+        </article>
+    
+        <article class="project">
+            <h2>Virtual Pet Part 2</h2>
+            <figure class="picture">
+                <img src="VirtualPet2.png"
+                alt="Virtual Pet 2 pic"/>
+            </figure>
+            <p class="description">
+                Virtual Pet 2 was built off of Virtual Pet 1. Here I added a shelter class where I could house and
+                care for multiple pets as opposed to just one. I also added methods which allowed for adopting out 
+                and admitting pets to and from the shelter.
+                <br/>
+                Virtual Pet 2 was written in Visual Studio Code and introduced the use of new concepts from OOP
+                and using collections.
+            </p>
+            <a href="https://github.com/WeCanCodeIT/homework-virtual-pet-part-2-shelter-v1-01-klocke1028.git">
+                Virtual Pet 2 
+            </a>
+        </article>
+    
+        <article class="project">
+            <h2>Virtual Pet API</h2>
+            <figure class="picture">
+                <img src="VirtualPetAPI.png"
+                alt="VP API pic"/>
+            </figure>
+            <p class="description">
+                Virtual Pet API is a simple REST API. Here I created an entity, repository, controller and service for 
+                virtual pets. Pets were able to be loaded into and located in the database.
+                <br/>
+                Like Virtual Pet 1 and 2, this project was written in Visual Studio Code. The project was created via
+                Spring Initializer and tested using Postman.
+    
+            </p>
+        </article>
+        <footer> 
+            <em> Created by Kate Locke, 2024.</em>
+        </footer>
+    </div>
+    
     
 
 
