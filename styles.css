@@ -62,7 +62,7 @@ footer {
     height: 20vh;
 }
 
-.about-section {
+#about-section {
     display: flex;
     margin: 5rem;
     padding: 2rem;
@@ -75,7 +75,7 @@ footer {
     text-align: center;
     font-size: large;
  }
- 
+
 #projects-header {
     display: flex;
     align-items: center;
@@ -100,6 +100,33 @@ footer {
     grid-auto-flow: column;
     padding: 0;
     margin: 0;
+}
+
+#contact-me {
+    text-align: center;
+}
+
+#contactinfo {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    bottom: 8rem;
+    padding-top: 10px;
+}
+
+.contact-item {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+    left: 0;
 }
 
 
