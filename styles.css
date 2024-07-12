@@ -62,14 +62,20 @@ footer {
     height: 20vh;
 }
 
-#about-section {
+.about-section {
     display: flex;
+    margin: 5rem;
+    padding: 2rem;
     text-align: center;
     justify-content: center;
     font-size:medium;
-    border: 4px solid;
+    border: 3px solid;
 }
-
+ #blurb {
+    text-align: center;
+    font-size: large;
+ }
+ 
 #projects-header {
     display: flex;
     align-items: center;
