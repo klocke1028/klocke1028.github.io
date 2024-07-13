@@ -1,8 +1,29 @@
 body {
+    background-image: url("./img/background.png");
+    background-size: contain;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: auto 0;
     
+}
+
+#main-header {
+    font-size: x-large;
+    border: 3px solid #e70ca5;
+    background-color: #00000069;
+}
+
+#home-nav-menu {
+    display: grid;
+    text-align: center;
+    height: 80vh;
+}
+
+.home-nav-items {
+    display: grid;
+    list-style: none;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 .nav-menu {
@@ -11,7 +32,6 @@ body {
     top: 1rem;
     left: 1rem;
     padding-top: 10px;
-    
 }
 
 .nav-items {
@@ -27,6 +47,7 @@ li {
 
 a {
     text-decoration: underline;
+    font-weight: bold;
     color: black;
 }
 
@@ -43,38 +64,8 @@ a {
 }
 
 #main-content {
-    display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-}
-
-footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20%;
 }
-
-#about-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
-}
-
-#about-section {
-    display: flex;
-    margin: 5rem;
-    padding: 2rem;
-    text-align: center;
-    justify-content: center;
-    font-size:medium;
-    border: 3px solid;
-}
- #blurb {
-    text-align: center;
-    font-size: large;
- }
 
 #projects-header {
     display: flex;
@@ -84,45 +75,85 @@ footer {
     color: black;
 }
 
+.project-title {
+    text-align: center;
+}
+
 .project {
     margin: 5rem;
     padding: 2rem;
-    background-color: #bfc4c7;
-    border: 3px solid #14a098;
+    background-color: #0000007c;
+    border: 5px solid #e70ca5;
 }
 
 .description {
-    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .picture {
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    justify-content: center;
     padding: 0;
     margin: 0;
 }
 
-#contact-me {
+#about-container {
+    width: 70%;
+    margin:auto;
     text-align: center;
-}
-
-#contactinfo {
-    display: flex;
-    position: fixed;
-    align-items: center;
-    bottom: 8rem;
-    padding-top: 10px;
-}
-
-.contact-item {
-    display: flex;
-    list-style: none;
     justify-content: center;
 }
 
-footer {
+#about-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    color: black;
+}
+
+.about-me {
+    display: flex;
     text-align: center;
-    position: fixed;
+    justify-content: center;
+    border: 3px solid #e70ca5;
+    background-color: #0000007c;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.cats{
+    display: flex;
+    justify-content: center;
+    
+    padding: 0;
+    margin: 0;
+}
+
+.skills-header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.skill-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    font-weight: 800;
+    border: 3px solid #e70ca5;
+    background-color: #0000007c;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    position: relative;
     width: 100%;
     height: 5%;
     bottom: 0;
