@@ -126,7 +126,7 @@ a {
 .cats{
     display: flex;
     justify-content: center;
-    
+
     padding: 0;
     margin: 0;
 }
@@ -143,11 +143,22 @@ a {
     text-align: center;
     justify-content: center;
     list-style: none;
-    font-weight: 800;
+    font-weight: 700;
     border: 3px solid #e70ca5;
     background-color: #0000007c;
     margin: 1rem;
     padding: 1rem;
+}
+
+.contact {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#contact-items {
+    padding: 1rem;
+    margin: 1rem;
+    text-decoration: underline;
 }
 
 footer {
