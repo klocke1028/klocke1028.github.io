@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="styles.css" />
     <title>About Me</title>
 </head>
-<body id="about-body">
-    <div id="about-container">
+<body>
+    <div class="container">
         <nav class="nav-menu">
             <ul class="nav-items">
                 <li><a href="index.html">Home</a></li>
@@ -15,7 +15,7 @@
             </ul>
         </nav>
         <header>
-            <h1 id="about-header">
+            <h1>
                 Hi, I'm Kate!
             </h1>
         </header>
@@ -29,30 +29,19 @@
                 I love that it can allow me to be creative in order to design both aesthetically pleasing and user-friendly layouts.<br>
                 In my free time you can find me either playing music, gaming, or spending time with my husband and four cats who are shown to the side. <br>
             </p>
-            <figure class="picture">
-                <img src="./img/profilepic.jpg"
-                alt="My pic"
-                width="200px">
-            </figure>
-            <figure class="picture">
-                <img src="./img/epi.jpg"
-                alt="Epi pic"
-                width="200px">
-                </figure>
-            <figure class="picture">
-                <img src="./img/mezandfester.jpg"
-                alt="MezFester pic"
-                width="200px">
-            </figure>
-            <figure class="picture">
-                <img src="./img/lydia.jpg"
-                alt="Lydia Pic"
-                width="200px">
-            </figure>
         </article>
+            <div class="picture">
+                <li>
+                    <img src="./img/epi.jpg" alt="Epi pic" width="200px">
+                </li>
+                <li>
+                    <img src="./img/mezandfester.jpg" alt="MezFester pic" width="200px">
+                </li>
+                <li><img src="./img/lydia.jpg" alt="Lydia Pic" width="200px"></li>
+            </div>
+        
         <section>
-            <h2 class="skills-header">Skills</h2>
-            <div class="skills">
+                <h2 class="about-h2">Skills</h2>
                 <ul class="skill-items">
                     <li>Java</li>
                     <li>Object Oriented Programming</li>
@@ -60,24 +49,21 @@
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul>
-            </div>
-            <h2 class="skills-header">Technologies Used</h2>
-            <div class="skills">
+        </section>
+        <section>
+                <h2 class="about-h2">Technologies Used</h2>
                 <ul class="skill-items">
                     <li>Visual Studio Code</li>
                     <li>Spring Initializr</li>
                     <li>Git</li>
                 </ul>
-            </div>
         </section>
-        <section>
-            <div class="contact">
-                <h2 id="contact-items">Contact Me</h2>
-                <a href="https://github.com/klocke1028">My GitHub</a>
-                <a href="https://www.linkedin.com/in/katlyn-locke-6276452b0/">My LinkedIn</a>
-                <a href="mailto:k.locke1028@gmail.com">Send E-mail</a>
-            </div>
-        </section>
+            <h2 class="about-h2">Contact Me</h2>
+                <section class="contact">
+                    <a href="https://github.com/klocke1028">My GitHub</a>
+                    <a href="https://www.linkedin.com/in/katlyn-locke-6276452b0/">My LinkedIn</a>
+                    <a href="mailto:k.locke1028@gmail.com">Send E-mail</a>
+                </section>
         <footer> 
             <em> Created by Kate Locke, 2024.</em>
         </footer>
