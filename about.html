@@ -1,72 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
     <title>About Me</title>
-</head>
-<body>
-    <div class="container">
-        <nav class="nav-menu">
-            <ul class="nav-items">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
-        </nav>
-        <header>
-            <h1>
-                Hi, I'm Kate!
-            </h1>
-        </header>
-        <article class="about-me">
-            <p>
-                I am a Northeast Ohio based full-stack software development student at We Can Code IT. I made the decision to jump <br>
-                into the tech field in early 2024 because while I have a bachelor's degree in communication studies, I was wanting to <br>
-                find a career path that I was more passionate about. I've always had a love for technology, especially computers and gaming <br> 
-                so I decided to take an introductory course to test the waters. I ended up loving it and enrolled in WCCI's full-time summer <br>
-                cohort for full-stack Java development. I've found that I really enjoy front-end development during my time as a student. <br>
-                I love that it can allow me to be creative in order to design both aesthetically pleasing and user-friendly layouts.<br>
-                In my free time you can find me either playing music, gaming, or spending time with my husband and four cats who are shown to the side. <br>
-            </p>
-        </article>
-            <div class="picture">
-                <li>
-                    <img src="./img/epi.jpg" alt="Epi pic" width="200px">
-                </li>
-                <li>
-                    <img src="./img/mezandfester.jpg" alt="MezFester pic" width="200px">
-                </li>
-                <li><img src="./img/lydia.jpg" alt="Lydia Pic" width="200px"></li>
-            </div>
-        
-        <section>
-                <h2 class="about-h2">Skills</h2>
-                <ul class="skill-items">
-                    <li>Java</li>
-                    <li>Object Oriented Programming</li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
-        </section>
-        <section>
-                <h2 class="about-h2">Technologies Used</h2>
-                <ul class="skill-items">
-                    <li>Visual Studio Code</li>
-                    <li>Spring Initializr</li>
-                    <li>Git</li>
-                </ul>
-        </section>
-            <h2 class="about-h2">Contact Me</h2>
-                <section class="contact">
-                    <a href="https://github.com/klocke1028">My GitHub</a>
-                    <a href="https://www.linkedin.com/in/katlyn-locke-6276452b0/">My LinkedIn</a>
-                    <a href="mailto:k.locke1028@gmail.com">Send E-mail</a>
-                </section>
-        <footer> 
-            <em> Created by Kate Locke, 2024.</em>
-        </footer>
+  </head>
+  <body>
+    <div class="off-screen-menu">
+      <ul>
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
+        <li class="nav-item">
+          <a href="projects.html">Projects and Skills</a>
+        </li>
+      </ul>
     </div>
-</body>
+    <nav>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <div class="slides-wrapper">
+      <div class="prev-button"><i class="fas fa-chevron-left"></i></div>
+      <div class="slides-container">
+        <div class="slide-image active">
+          <img src="./img/epi.jpg" alt="Epi" />
+          <figcaption>Epi</figcaption>
+        </div>
+        <div class="slide-image">
+          <img src="./img/lydia.jpg" alt="Lydia" />
+          <figcaption>Lydia</figcaption>
+        </div>
+        <div class="slide-image">
+          <img src="./img/Gomez.jpeg" alt="Gomez" />
+          <figcaption>Gomez</figcaption>
+        </div>
+        <div class="slide-image">
+          <img src="./img/Fester.jpeg" alt="Fester" />
+          <figcaption>Fester</figcaption>
+        </div>
+      </div>
+      <div class="next-button"><i class="fas fa-chevron-right"></i></div>
+    </div>
+    <article class="about-me">
+      <p align="center">
+        I am a Northeast Ohio based full-stack software development student at
+        We Can Code IT. I made the decision to jump <br />
+        into the tech field in early 2024 because while I have a bachelor's
+        degree in communication studies, I was wanting to <br />
+        find a career path that I was more passionate about. I've always had a
+        love for technology, especially computers and gaming <br />
+        so I decided to take an introductory course to test the waters. I ended
+        up loving it and enrolled in WCCI's full-time summer <br />
+        cohort for full-stack Java development. I've found that I really enjoy
+        front-end development during my time as a student. <br />
+        I love that it can allow me to be creative in order to design both
+        aesthetically pleasing and user-friendly layouts. In my free time you
+        can find me either playing music, gaming, or spending time with my
+        husband and four cats who are each shown in the slideshow above.
+        <br />
+        <p id="fact">Click the button below to learn more about me.</p>
+          <button id="fact-button">Fun Facts!</button>
+      </p>
+    </article>
+
+    <div>
+      <h2 class="about-header">My Skills</h2>
+      <ul class="skill-list">
+        <li class="skill-item">Java</li>
+        <li class="skill-item">JavaScript</li>
+        <li class="skill-item">HTML/CSS</li>
+        <li class="skill-item">Spring Boot</li>
+        <li class="skill-item">React</li>
+        <li class="skill-item">Object Oriented Programming</li>
+      </ul>
+
+      <h2 class="about-header">Tools Used</h2>
+      <ul class="skill-list">
+        <li class="skill-item">Visual Studio Code</li>
+        <li class="skill-item">GitHub</li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="about-header">Contact Me</h2>
+      <a href="https://github.com/klocke1028" class="contact-link">My GitHub</a>
+      <a
+        href="https://www.linkedin.com/in/katlyn-locke-6276452b0/"
+        class="contact-link"
+        >My LinkedIn</a
+      >
+      <a href="mailto:katlynlocke1028@gmail.com" class="contact-link"
+        >Send E-mail</a
+      >
+    </div>
+
+    <footer>
+      <em> Created by Kate Locke, 2024.</em>
+    </footer>
+    <script src="./portfolio.js"></script>
+  </body>
 </html>
